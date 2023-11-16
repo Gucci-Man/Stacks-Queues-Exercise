@@ -35,7 +35,7 @@ class Queue {
    * and return its value. Should throw an error if the queue is empty. */
 
   dequeue() {
-    if (this.size ===0) {
+    if (this.size === 0) {
       throw new Error('Queue is empty');
     }
 
@@ -66,7 +66,7 @@ class Queue {
       return true;
     } else {
       return false;
-    }
+    };
   }
 }
 
